@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA97E219-CF8C-6265-307E-D00F10FD5DBC" name="registra">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 11:46:19 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ALUMNA_idAlumna" id="6DE9FBEC-331A-0DE0-31E5-98D8E56AD8A7">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 11:46:19 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D0CC6E3-1840-AF87-A7CA-6116A915E573" referredColumn="489BBA58-CE99-F0C9-1BD4-AEE7E51CBDE8"/>
+</associations>
+</Column>
+<Column name="HÁBITO_idHábito" id="427E1F39-A7B9-6191-357A-4FE466EC80C2">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 11:46:19 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73FBA8FE-63B2-BC7A-5AA0-2DA3115A43F4" referredColumn="FC5FFA5E-C308-06B8-9CE0-C1A86B339296"/>
+</associations>
+</Column>
+<Column name="fechaRegistro" id="26373A9F-B301-9594-102B-22CE7B23827B">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 12:49:15 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5355D5D-CBAD-7637-0505-7D418C1200A1" name="registra_PK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 11:46:19 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DE9FBEC-331A-0DE0-31E5-98D8E56AD8A7"/>
+<colUsage columnID="427E1F39-A7B9-6191-357A-4FE466EC80C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D33B4598-F1A1-5807-37B6-2DCCABDD51F9" name="registra_ALUMNA_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 11:46:19 UTC</createdTime>
+<generatorID>FE7CBE2A-83B2-EBB1-ACE4-AD53FDDD3A0C</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DE9FBEC-331A-0DE0-31E5-98D8E56AD8A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45C22D8A-762A-4A4C-9236-E0DE7FD3E6A0" name="registra_HÁBITO_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 11:46:19 UTC</createdTime>
+<generatorID>FE7CBE2A-83B2-EBB1-ACE4-AD53FDDD3A0C</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="427E1F39-A7B9-6191-357A-4FE466EC80C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

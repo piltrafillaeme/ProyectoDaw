@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE73EE07-A5EB-FE0E-DBBC-AF0BFA99E5EB" name="CUESTIONARIO">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 11:38:53 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCuestionario" id="D1D7B5BE-B568-9347-9176-7531CF845326">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 11:39:00 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preguntas" id="13691B8C-AA10-44CC-CB4E-FE80771D2D9D">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 11:39:17 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="respuestas" id="AE582B3D-2C94-80FD-6F24-BAA7D60CE6D1">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 11:39:32 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProfesor" id="5D85C2C8-08BE-E023-DF43-F9ACA592F6DE">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 11:44:38 UTC</createdTime>
+<generatorID>2411F62D-0EB3-0C3B-54E9-C2E36B7A9DA5</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<referedAttribute>C73813A0-D79F-554D-5566-F6D43C3D5F4D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTema" id="03255901-8521-6995-5EB9-319BB3EA78A0">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 12:40:23 UTC</createdTime>
+<generatorID>35E783FE-1539-D336-0D86-E14923E28DE2</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<referedAttribute>88E393EE-C9B1-4839-5B8A-0177E3808965</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A39BBC08-2E35-D5B0-93ED-1BD6C97208AF" name="CUESTIONARIO PK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 11:39:16 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1D7B5BE-B568-9347-9176-7531CF845326</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

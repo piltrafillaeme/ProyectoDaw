@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tiene" directorySegmentName="seg_0" id="DABB9863-D038-7870-3368-13BE39D61F6E">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 11:43:43 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<sourcePk>06C57ACF-4CA1-1D68-F72E-DF582AE1D8E1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CA8DEA5D-3436-F412-5882-6E5B3684C42B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>49E3DF58-7B1B-A8B5-CA08-92C7DA55F571</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

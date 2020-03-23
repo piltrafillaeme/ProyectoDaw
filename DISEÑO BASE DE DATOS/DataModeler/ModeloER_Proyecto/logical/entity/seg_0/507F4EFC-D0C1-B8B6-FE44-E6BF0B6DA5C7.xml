@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="507F4EFC-D0C1-B8B6-FE44-E6BF0B6DA5C7" name="TEMA">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 12:39:27 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idTema" id="88E393EE-C9B1-4839-5B8A-0177E3808965">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 12:39:35 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreTema" id="ADE60900-8621-A390-58D8-C6CEDED934D6">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 12:39:49 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProfesor" id="0432B828-5E7D-EC52-BDFF-0501D704392F">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 12:40:08 UTC</createdTime>
+<generatorID>379DA9DE-3893-B394-3A0E-EFCA01B65A86</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<referedAttribute>C73813A0-D79F-554D-5566-F6D43C3D5F4D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9CE56551-29BD-B6D1-EB05-5102510BEC96" name="TEMA PK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-23 12:39:46 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88E393EE-C9B1-4839-5B8A-0177E3808965</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

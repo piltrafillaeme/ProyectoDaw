@@ -32,7 +32,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PROFESOR_idProfesor" id="5A7D8C3F-0488-A527-4E18-F5CFD30A9013">
+<Column name="idProfesor" id="5A7D8C3F-0488-A527-4E18-F5CFD30A9013">
 <createdBy>csier</createdBy>
 <createdTime>2020-03-23 11:46:19 UTC</createdTime>
 <generatorID>09F1F033-95D1-B381-5C00-AB49203A35A5</generatorID>
@@ -43,9 +43,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4A34C94F-0CCE-BF20-B659-A72F3CAD7EE6" referredColumn="A1BFC028-9162-5A58-F8EB-27E04C001350"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -57,9 +54,6 @@
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="FC5FFA5E-C308-06B8-9CE0-C1A86B339296"/>
-</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="6176DF60-68A4-A400-32EC-D7B9367BB84B" name="HÁBITO_PROFESOR_FK">
 <createdBy>csier</createdBy>
@@ -68,9 +62,6 @@
 <ownerDesignName>ModeloER_Proyecto</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5A7D8C3F-0488-A527-4E18-F5CFD30A9013"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

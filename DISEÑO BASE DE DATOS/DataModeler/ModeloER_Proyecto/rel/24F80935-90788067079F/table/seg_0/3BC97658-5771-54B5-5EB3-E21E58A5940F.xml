@@ -29,7 +29,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PROFESOR_idProfesor" id="71571040-9EBD-9DCF-FD82-988C02589732">
+<Column name="idProfesor" id="71571040-9EBD-9DCF-FD82-988C02589732">
 <createdBy>csier</createdBy>
 <createdTime>2020-03-23 12:40:36 UTC</createdTime>
 <generatorID>0432B828-5E7D-EC52-BDFF-0501D704392F</generatorID>
@@ -40,9 +40,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="45C97EE1-269E-58AB-5998-432C3D84455B" referredColumn="A1BFC028-9162-5A58-F8EB-27E04C001350"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -54,9 +51,6 @@
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="29DBAC06-8951-9AD3-5CF1-DF7853435397"/>
-</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="D514A0D7-6D73-1E73-63F9-903435A2E0FD" name="TEMA_PROFESOR_FK">
 <createdBy>csier</createdBy>
@@ -65,9 +59,6 @@
 <ownerDesignName>ModeloER_Proyecto</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="71571040-9EBD-9DCF-FD82-988C02589732"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

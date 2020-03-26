@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20AA8102-4CFB-E6D0-7B14-269746FCB06A" name="pregunta_tiene_respuesta">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-26 10:11:14 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PREGUNTA_idPregunta" id="F497C69C-C8FC-EB59-080E-F38EE38B3061">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-26 10:11:14 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91CEDA03-7BAD-8BB3-C317-3B47FEA96644" referredColumn="7603D81B-983B-C01B-DE7F-E8731416DA3B"/>
+</associations>
+</Column>
+<Column name="RESPUESTA_idRespuesta" id="5D1C8355-315F-8A86-2D19-0B687E2C6130">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-26 10:11:14 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62F0643F-B0EC-5712-52C7-03D4B1114A05" referredColumn="D9787377-6021-49C6-A2CB-C92DA82416B3"/>
+</associations>
+</Column>
+<Column name="respuestaCorrecta" id="A2A99D5B-6BEB-2A90-CF53-0B7C2E890415">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-26 10:11:14 UTC</createdTime>
+<generatorID>9762BC2B-68B1-89F1-8222-DD8B57A4F480</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3004BDEC-A0B8-2837-EC8D-07A608621319" name="tienev3_PK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-26 10:11:14 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F497C69C-C8FC-EB59-080E-F38EE38B3061"/>
+<colUsage columnID="5D1C8355-315F-8A86-2D19-0B687E2C6130"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5BB8280-2356-7992-DF21-D78B23F71820" name="tienev3_PREGUNTA_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-26 10:11:14 UTC</createdTime>
+<generatorID>A1AC04A2-9C62-C709-DF38-8EB9A91A9700</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F497C69C-C8FC-EB59-080E-F38EE38B3061"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="305DEEA2-6BA5-4E12-3B87-23E1439BB44F" name="tienev3_RESPUESTA_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-26 10:11:14 UTC</createdTime>
+<generatorID>A1AC04A2-9C62-C709-DF38-8EB9A91A9700</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D1C8355-315F-8A86-2D19-0B687E2C6130"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -44,7 +44,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PROFESOR_idProfesor" id="EEB69D57-B9DC-3694-55DC-239634C57C87">
+<Column name="idProfesor" id="EEB69D57-B9DC-3694-55DC-239634C57C87">
 <createdBy>csier</createdBy>
 <createdTime>2020-03-23 11:46:19 UTC</createdTime>
 <generatorID>06B14356-27EF-2046-E7B1-DDF1481290F5</generatorID>
@@ -55,11 +55,8 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B5E3DCE5-F38E-0F88-A7A6-0FDA02411901" referredColumn="A1BFC028-9162-5A58-F8EB-27E04C001350"/>
-</associations>
 </Column>
-<Column name="CURSO_idCurso" id="E5B23FDD-20C9-F82A-FB0F-F6CF6FFB9F31">
+<Column name="idCurso" id="E5B23FDD-20C9-F82A-FB0F-F6CF6FFB9F31">
 <createdBy>csier</createdBy>
 <createdTime>2020-03-23 11:46:19 UTC</createdTime>
 <generatorID>9783637A-7D58-4AEE-43C9-90D15028197F</generatorID>
@@ -70,9 +67,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="1C805E5A-4616-380B-4AE2-AA58F7847B9B" referredColumn="DADB912F-9898-8C45-7AA7-F87CCE72C7F6"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -84,9 +78,6 @@
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="489BBA58-CE99-F0C9-1BD4-AEE7E51CBDE8"/>
-</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="396AF9B2-D6A0-80B9-4D9E-F1B76D1E2B6C" name="ALUMNA_PROFESOR_FK">
 <createdBy>csier</createdBy>
@@ -95,9 +86,6 @@
 <ownerDesignName>ModeloER_Proyecto</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="EEB69D57-B9DC-3694-55DC-239634C57C87"/>
-</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="6AE39EEC-BBE4-F7F3-4383-ECD7B30D9AF4" name="ALUMNA_CURSO_FK">
 <createdBy>csier</createdBy>
@@ -106,9 +94,6 @@
 <ownerDesignName>ModeloER_Proyecto</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="E5B23FDD-20C9-F82A-FB0F-F6CF6FFB9F31"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

@@ -55,7 +55,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PROFESOR_idProfesor" id="856FE5E2-0670-0733-BE64-9CCE6D08F25A">
+<Column name="idProfesor" id="856FE5E2-0670-0733-BE64-9CCE6D08F25A">
 <createdBy>csier</createdBy>
 <createdTime>2020-03-23 11:46:19 UTC</createdTime>
 <generatorID>5D85C2C8-08BE-E023-DF43-F9ACA592F6DE</generatorID>
@@ -66,11 +66,8 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="088B2728-B0A0-2F1E-DFC7-895FABFA9358" referredColumn="A1BFC028-9162-5A58-F8EB-27E04C001350"/>
-</associations>
 </Column>
-<Column name="TEMA_idTema" id="AC6AEC2B-4AAB-345D-23E0-B8621B58BEF8">
+<Column name="idTema" id="AC6AEC2B-4AAB-345D-23E0-B8621B58BEF8">
 <createdBy>csier</createdBy>
 <createdTime>2020-03-23 12:40:36 UTC</createdTime>
 <generatorID>03255901-8521-6995-5EB9-319BB3EA78A0</generatorID>
@@ -81,9 +78,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="07DB0760-5E58-1FA7-4D75-CA58F40B4439" referredColumn="29DBAC06-8951-9AD3-5CF1-DF7853435397"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -95,9 +89,6 @@
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="AD26E489-5982-2628-7291-31DFDE427150"/>
-</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="DBDCD697-B94E-4DEA-4CA3-FDE48A41FFE5" name="CUESTIONARIO_PROFESOR_FK">
 <createdBy>csier</createdBy>
@@ -106,9 +97,6 @@
 <ownerDesignName>ModeloER_Proyecto</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="856FE5E2-0670-0733-BE64-9CCE6D08F25A"/>
-</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="031F8C74-736A-DCE8-8944-532CCCEB0619" name="CUESTIONARIO_TEMA_FK">
 <createdBy>csier</createdBy>
@@ -117,9 +105,6 @@
 <ownerDesignName>ModeloER_Proyecto</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="AC6AEC2B-4AAB-345D-23E0-B8621B58BEF8"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

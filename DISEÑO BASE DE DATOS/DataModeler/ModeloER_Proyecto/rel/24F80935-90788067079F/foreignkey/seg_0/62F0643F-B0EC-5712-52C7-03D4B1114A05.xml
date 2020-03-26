@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62F0643F-B0EC-5712-52C7-03D4B1114A05" containerWithKeyObject="20AA8102-4CFB-E6D0-7B14-269746FCB06A" localFKIndex="305DEEA2-6BA5-4E12-3B87-23E1439BB44F" name="tienev3_RESPUESTA_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-26 10:11:14 UTC</createdTime>
+<generatorID>A1AC04A2-9C62-C709-DF38-8EB9A91A9700</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<referredTableLongName>RESPUESTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>575C3979-1FDB-D47C-7FAA-9972939F8C71</referredTableID>
+<keyObject>9D953A4A-74DB-852A-8B3B-3214C98D91B0</keyObject>
+<referredKeyID>9D953A4A-74DB-852A-8B3B-3214C98D91B0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idRespuesta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

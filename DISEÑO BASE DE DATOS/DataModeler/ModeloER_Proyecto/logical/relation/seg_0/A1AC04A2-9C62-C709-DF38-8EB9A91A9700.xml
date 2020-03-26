@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pregunta_tiene_respuesta" directorySegmentName="seg_0" id="A1AC04A2-9C62-C709-DF38-8EB9A91A9700">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-26 10:10:33 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>24B54089-5F2B-E313-EBEE-45E40496A9F2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E6A58653-DAB7-1266-E360-8624DCEC5FB1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="respuestaCorrecta" id="9762BC2B-68B1-89F1-8222-DD8B57A4F480">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-26 10:10:46 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="24F80935-023C-5BB1-9DBF-90788067079F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

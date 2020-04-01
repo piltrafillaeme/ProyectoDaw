@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="B2FE7E78-2AB9-DE61-B711-C41DA0548919" mainViewID="FC2A9BF0-DB0C-BB51-A306-EC3ECF2F9129">
+<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="EA29D6B2-F536-9FB1-30C4-3F78A348E6BF" mainViewID="73526053-EAFC-F680-D3D5-D8648312C68E">
 <createdBy>csier</createdBy>
-<createdTime>2020-03-23 11:25:37 UTC</createdTime>
+<createdTime>2020-03-31 17:19:47 UTC</createdTime>
 <ownerDesignName>ModeloER_Proyecto</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 <collectionOfRefsPrefix>array_ref_</collectionOfRefsPrefix>

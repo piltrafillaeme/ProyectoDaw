@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1CB009DF-ACB7-72D0-5387-4565E19F5623" name="RESPUESTAS">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:27:11 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D8205852-1C4D-92AC-48E2-F48BE88839C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idRespuesta" id="B0EFCB7A-D80A-DE2A-0E42-B855590E2145">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:27:16 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D8205852-1C4D-92AC-48E2-F48BE88839C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enunciadoRespuesta" id="42B62A71-2190-8773-9B83-6A56F470AF1D">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:27:30 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D8205852-1C4D-92AC-48E2-F48BE88839C3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="respuestaCorrecta" id="4D6BAC50-69E0-4B76-FDA3-3EE6515EB49E">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:37:47 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D8205852-1C4D-92AC-48E2-F48BE88839C3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DFA5455-4167-4493-1159-ECDF449125FE" name="RESPUESTAS PK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:27:29 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D8205852-1C4D-92AC-48E2-F48BE88839C3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0EFCB7A-D80A-DE2A-0E42-B855590E2145</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

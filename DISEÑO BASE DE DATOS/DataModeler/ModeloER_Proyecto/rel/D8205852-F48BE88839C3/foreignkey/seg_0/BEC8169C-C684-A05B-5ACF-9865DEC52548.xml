@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BEC8169C-C684-A05B-5ACF-9865DEC52548" containerWithKeyObject="A8867D13-A23B-A6D4-5F30-2C0078B33B28" localFKIndex="B856CEEA-52F5-707C-BA1D-31D6787AB6E9" name="realiza_CUESTIONARIO_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:41:29 UTC</createdTime>
+<generatorID>C6B2BF9C-00E7-8E89-B8B8-BFD3DAEB4B89</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<referredTableLongName>CUESTIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0651EDA3-F392-A0AB-F14A-2B46347AED28</referredTableID>
+<keyObject>E2347769-FF1E-BC08-D027-6F1A2CB43432</keyObject>
+<referredKeyID>E2347769-FF1E-BC08-D027-6F1A2CB43432</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idCuestionario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

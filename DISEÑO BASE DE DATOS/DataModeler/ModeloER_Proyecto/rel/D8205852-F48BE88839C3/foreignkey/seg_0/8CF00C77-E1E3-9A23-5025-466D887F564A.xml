@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8CF00C77-E1E3-9A23-5025-466D887F564A" containerWithKeyObject="56212C38-3B80-1F79-047E-F1A3B9986A95" localFKIndex="A2FC2B39-577D-10E3-C6A6-9E8FE1784E8E" name="CURSO_PROFESOR_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:41:29 UTC</createdTime>
+<generatorID>DED828FE-B4A0-2640-F30D-0D46EE8A63CF</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<referredTableLongName>PROFESOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73D2B3ED-EC5C-A623-88F1-4739F3EB89E4</referredTableID>
+<keyObject>D66B9B21-B74E-9598-BC67-1186C4B5DA13</keyObject>
+<referredKeyID>D66B9B21-B74E-9598-BC67-1186C4B5DA13</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idProfesor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

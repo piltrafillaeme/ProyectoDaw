@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0CD2628A-3816-D68F-84A1-0CB9FF72A3A0" mainViewID="5DD08CEB-F779-78C0-94A5-2840FF3BE8B6">
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="EB991DF8-9609-977F-DCD6-7E4D79D0DC59" mainViewID="56F8000A-4902-1CD6-057A-4C65D8D5E7CD">
 <createdBy>csier</createdBy>
-<createdTime>2020-03-23 11:25:37 UTC</createdTime>
+<createdTime>2020-03-31 17:19:47 UTC</createdTime>
 <ownerDesignName>ModeloER_Proyecto</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </LogicalDesign>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="enseña" directorySegmentName="seg_0" id="793FB71C-94D6-A0D7-4CD5-D64A980B6CB5">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:38:19 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D8205852-1C4D-92AC-48E2-F48BE88839C3" value="true"/>
+</engineerTo>
+<sourcePk>D730EF80-7619-EE8B-A23D-0D9B06EEB117</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>90EB5FB7-A09E-9AE6-0323-9F614645D14F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>46488E50-5280-C320-5E06-7A13D7E062B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

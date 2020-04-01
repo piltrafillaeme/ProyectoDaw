@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="realiza" directorySegmentName="seg_0" id="C6B2BF9C-00E7-8E89-B8B8-BFD3DAEB4B89">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:35:14 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D8205852-1C4D-92AC-48E2-F48BE88839C3" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>15887DB8-ED34-5D4D-1670-0D6854C2C527</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB930173-F792-107C-2DE9-C6755128605E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="nota" id="4DA9875C-0C3A-FBA5-09A1-194A66C066A7">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-01 10:25:30 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D8205852-1C4D-92AC-48E2-F48BE88839C3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

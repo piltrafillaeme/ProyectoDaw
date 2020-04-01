@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B05ACDB4-FDED-C9BA-BEA6-3AF8CD1768AC" containerWithKeyObject="0651EDA3-F392-A0AB-F14A-2B46347AED28" localFKIndex="3CF674B2-7D38-8978-00AB-7D875AB858E0" name="CUESTIONARIO_PROFESOR_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:41:29 UTC</createdTime>
+<generatorID>797AAB59-BD48-3E2F-69CC-B6739CF40A1E</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<referredTableLongName>PROFESOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73D2B3ED-EC5C-A623-88F1-4739F3EB89E4</referredTableID>
+<keyObject>D66B9B21-B74E-9598-BC67-1186C4B5DA13</keyObject>
+<referredKeyID>D66B9B21-B74E-9598-BC67-1186C4B5DA13</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idProfesor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

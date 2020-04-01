@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F47A222A-F3DC-110C-BEE6-4D7B06D1E9F6" containerWithKeyObject="A8867D13-A23B-A6D4-5F30-2C0078B33B28" localFKIndex="4935813C-77D3-C925-1E11-CBDB6C32E4D9" name="realiza_ALUMNA_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:41:29 UTC</createdTime>
+<generatorID>C6B2BF9C-00E7-8E89-B8B8-BFD3DAEB4B89</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<referredTableLongName>ALUMNA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>394B6C56-84D3-49D3-02AD-DF753771C5BC</referredTableID>
+<keyObject>BE0A90B8-9C9D-EEA6-E823-2D6AA3697075</keyObject>
+<referredKeyID>BE0A90B8-9C9D-EEA6-E823-2D6AA3697075</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idAlumna</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

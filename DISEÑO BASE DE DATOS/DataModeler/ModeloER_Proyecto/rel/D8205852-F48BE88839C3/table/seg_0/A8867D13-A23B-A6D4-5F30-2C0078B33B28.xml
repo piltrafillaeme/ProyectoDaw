@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8867D13-A23B-A6D4-5F30-2C0078B33B28" name="realiza">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:41:29 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ALUMNA_idAlumna" id="7B460E0D-2A64-B667-7262-EE3ED35744EF">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:41:29 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F47A222A-F3DC-110C-BEE6-4D7B06D1E9F6" referredColumn="A30D5DE8-E15F-1E86-5F50-F6A5B5083051"/>
+</associations>
+</Column>
+<Column name="CUESTIONARIO_idCuestionario" id="2C346D90-DABF-42C9-1FA1-00E44FA08121">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:41:29 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEC8169C-C684-A05B-5ACF-9865DEC52548" referredColumn="66E4612F-2BD6-D4F2-A0BF-35D4ED8B8C71"/>
+</associations>
+</Column>
+<Column name="nota" id="BF82A607-68E3-099F-4BC0-E2FEC5B9E434">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-01 10:25:51 UTC</createdTime>
+<generatorID>4DA9875C-0C3A-FBA5-09A1-194A66C066A7</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7232C696-A28D-4BCC-8BBE-14A056DF63D9" name="realiza_PK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:41:29 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B460E0D-2A64-B667-7262-EE3ED35744EF"/>
+<colUsage columnID="2C346D90-DABF-42C9-1FA1-00E44FA08121"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4935813C-77D3-C925-1E11-CBDB6C32E4D9" name="realiza_ALUMNA_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:41:29 UTC</createdTime>
+<generatorID>C6B2BF9C-00E7-8E89-B8B8-BFD3DAEB4B89</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B460E0D-2A64-B667-7262-EE3ED35744EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B856CEEA-52F5-707C-BA1D-31D6787AB6E9" name="realiza_CUESTIONARIO_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-03-31 17:41:29 UTC</createdTime>
+<generatorID>C6B2BF9C-00E7-8E89-B8B8-BFD3DAEB4B89</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C346D90-DABF-42C9-1FA1-00E44FA08121"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D22017E-2C2C-DF85-5263-1C1155F6AFE6" name="PROFESOR">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>FB0233BB-0C9F-43CA-916A-C312518FB96E</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProfesor" id="226F65DA-A1AE-82B4-F757-50092A483160">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>3D1EB7E8-84F0-F249-5C85-6DD10B2A71AB</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreProfesor" id="E65CAB16-83F7-7CD2-713E-429EB3A701FE">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>D29EDA37-54A4-9FF1-473F-F41AE6A7CB6A</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passwordProfesor" id="3716734F-9A94-12D1-F8E9-9B8B21CAEE94">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>785157CD-F700-356B-8240-6ECAF6616F40</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC02C531-3394-6547-87CD-DD69B8977846" name="PROFESOR_PK">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>267C270C-F33D-EE8A-D450-2F7A1F90583C</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="226F65DA-A1AE-82B4-F757-50092A483160"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A190B74-A349-3B3F-46FC-57AC1EF6BC16" name="CURSO">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>7AB5A459-C148-A687-EB73-BA3F86F034A9</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCurso" id="B720B74C-52C5-EC3E-4C89-BF2B918C1AC4">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>185AC7AB-1D74-63EE-E329-048747F19F6E</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreCurso" id="336D3781-4023-8942-7663-C31294BC4CB0">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>9BA66477-4903-8D86-D0A8-677D079F3908</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESOR_idProfesor" id="7B54E7E2-9475-91C7-631E-FC32AB38D12C">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>64E4FC14-1C59-E517-27C5-D0E575F614F7</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16039899-2F8C-2892-09BA-D615C9B17BBC" referredColumn="226F65DA-A1AE-82B4-F757-50092A483160"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76EA2FC2-DA84-A133-4A5B-3AC2E24DCFD9" name="CURSO_PK">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>FB8E26AA-6B27-5055-1648-9BA541ED4AB8</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B720B74C-52C5-EC3E-4C89-BF2B918C1AC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E3D7B21-FD4B-CA36-0B95-95F2FE2EC46F" name="CURSO_PROFESOR_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>A097D1C3-79DA-FAF5-FECC-7C0274A27826</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B54E7E2-9475-91C7-631E-FC32AB38D12C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

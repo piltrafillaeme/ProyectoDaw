@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6BEDD8E-8062-D0AC-BFEE-FE96376DF279" containerWithKeyObject="8386D49F-2102-5334-CD9A-3EEB9021222D" localFKIndex="C493219E-78A9-4BBF-0C5E-1857486E6C2E" name="alumnaregistrahabito_HABITO_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>C9F6B021-4CC7-B597-EB1F-265D925819C8</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<referredTableLongName>HABITO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8143F555-4A58-EBF1-25BA-992D7E12C5E0</referredTableID>
+<keyObject>4258499D-E075-52A1-ACF5-0211B937C463</keyObject>
+<referredKeyID>4258499D-E075-52A1-ACF5-0211B937C463</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idHabito</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

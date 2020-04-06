@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="alumnarealizacuestionario" directorySegmentName="seg_0" id="41797119-541D-628C-CAF4-6149878FB7E5">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:50:54 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>49A41D1A-73BF-0CDD-06FA-5A23B424E9B3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7C9D3222-8FF1-6AE1-7C2B-C30CE71BB639</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="notaAlumna" id="8E439274-FBFE-6D21-C22E-6C948A0E9E27">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:51:07 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

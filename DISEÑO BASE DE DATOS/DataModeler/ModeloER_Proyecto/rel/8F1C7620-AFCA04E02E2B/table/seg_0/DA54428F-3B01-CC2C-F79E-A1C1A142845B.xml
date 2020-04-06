@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA54428F-3B01-CC2C-F79E-A1C1A142845B" name="TEMA">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>FD8489CB-D5AE-A126-4AAB-1DD03284C361</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTema" id="94825E34-ADB3-1B60-D268-67248CD35521">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>75E7099D-7543-DD12-3ACE-E674FF9758D6</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreTema" id="8D8045C6-E5AB-DC6B-32EE-100D67D865B9">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>A801538D-1024-69E5-D8EA-C74C5C2513A5</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESOR_idProfesor" id="37AD9979-5798-6C78-F02C-409473BCF822">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>E4271180-8863-DB26-CF85-C6E34BA4A2FE</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB00F36E-F2C1-2092-6D86-9B624F52402A" referredColumn="226F65DA-A1AE-82B4-F757-50092A483160"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D967343-65C2-75BB-7DC1-948BF24E15B2" name="TEMA_PK">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>D19F477D-DEB3-7746-AF07-CC021EA96127</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94825E34-ADB3-1B60-D268-67248CD35521"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6F6B088-A784-D153-C25A-30054F188F51" name="TEMA_PROFESOR_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>0F6AAEBF-01D0-2B11-2D43-2ED7139E73E5</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37AD9979-5798-6C78-F02C-409473BCF822"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

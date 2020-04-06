@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF51CB63-5B32-489E-D7AC-D6D768B52938" name="cuestionariotienepreguntas">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUESTIONARIO_idCuestionario" id="84270FDC-7FC0-D643-7C66-9B351BF82425">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56349221-F2E9-55FD-93E5-379EE41BE45A" referredColumn="577BDFB5-D3F1-DC9C-24DE-19FCEC47E092"/>
+</associations>
+</Column>
+<Column name="PREGUNTA_idPregunta" id="BDEB1D5A-5F1A-629A-CC8E-04AE599C012F">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6973B5E8-4250-1449-D61A-6768BB8F1169" referredColumn="8472FA45-F37A-F676-6CF9-FF81C54C676D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFBC92E6-9CF3-ABAD-2764-A18B2FB45FF8" name="cuestionariotienepreguntas_PK">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84270FDC-7FC0-D643-7C66-9B351BF82425"/>
+<colUsage columnID="BDEB1D5A-5F1A-629A-CC8E-04AE599C012F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04851661-C545-0D69-7EED-5BE2C5385D13" name="cuestionariotienepreguntas_CUESTIONARIO_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>C5422B89-CF8C-B01A-2B2A-9E717B3263B8</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84270FDC-7FC0-D643-7C66-9B351BF82425"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D78588C3-CDA4-9933-50CC-0C1B80F09C57" name="cuestionariotienepreguntas_PREGUNTA_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>C5422B89-CF8C-B01A-2B2A-9E717B3263B8</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDEB1D5A-5F1A-629A-CC8E-04AE599C012F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

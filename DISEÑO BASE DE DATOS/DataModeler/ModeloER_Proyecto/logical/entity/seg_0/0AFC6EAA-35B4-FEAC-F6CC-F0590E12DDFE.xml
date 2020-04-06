@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0AFC6EAA-35B4-FEAC-F6CC-F0590E12DDFE" name="HABITO">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-01 09:08:55 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idHabito" id="38247008-C188-2C1F-BE32-1AE003408D5F">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-01 09:09:00 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreHabito" id="862C02ED-B06F-F7B6-D85C-ED2841722E92">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-01 09:09:11 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProfesor" id="F2A33CCA-85F1-26A9-5A0F-4754E7B56E61">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:53:29 UTC</createdTime>
+<generatorID>3FC4D485-0652-0D3E-4207-BFE205BD66C5</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<referedAttribute>3D1EB7E8-84F0-F249-5C85-6DD10B2A71AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6392EB4F-41C7-9214-4EBE-4584CD599BCF" name="HABITO PK">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-01 09:09:09 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38247008-C188-2C1F-BE32-1AE003408D5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

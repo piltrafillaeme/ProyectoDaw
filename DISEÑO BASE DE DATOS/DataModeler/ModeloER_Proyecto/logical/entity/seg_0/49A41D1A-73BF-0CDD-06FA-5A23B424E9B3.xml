@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49A41D1A-73BF-0CDD-06FA-5A23B424E9B3" name="ALUMNA">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-01 09:05:06 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idAlumna" id="F7949BDC-4386-2C00-5CCA-BF5F9C6985CE">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-01 09:05:17 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreAlumna" id="D5471739-EF7A-A6E6-2D01-D48D807B97BA">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-01 09:05:32 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passwordAlumna" id="1BDF1A06-A5B3-5BE2-AC4D-5C7EC795CFA7">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-01 09:05:43 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCurso" id="C0C16BE0-2FDC-47F5-24FC-3BFA95C0EE63">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:53:32 UTC</createdTime>
+<generatorID>6278D65A-B804-952C-7F6C-A4EF412041C4</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<referedAttribute>185AC7AB-1D74-63EE-E329-048747F19F6E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A749490-12D9-FB0F-51C6-DF1D85858BC4" name="ALUMNA PK">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-01 09:05:26 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7949BDC-4386-2C00-5CCA-BF5F9C6985CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

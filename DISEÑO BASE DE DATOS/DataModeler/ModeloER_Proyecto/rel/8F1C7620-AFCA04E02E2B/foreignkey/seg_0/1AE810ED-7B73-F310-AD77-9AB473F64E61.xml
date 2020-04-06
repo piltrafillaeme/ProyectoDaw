@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1AE810ED-7B73-F310-AD77-9AB473F64E61" containerWithKeyObject="7FAB092B-C035-7F5D-50BD-0D9B1D0BB7B2" localFKIndex="21BA8601-9EE3-B4D8-7AC5-09B184C6541F" name="CUESTIONARIO_TEMA_FK">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:54:07 UTC</createdTime>
+<generatorID>F0EAB149-72F8-985F-33FA-01DE4EDCB5AA</generatorID>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<referredTableLongName>TEMA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DA54428F-3B01-CC2C-F79E-A1C1A142845B</referredTableID>
+<keyObject>5D967343-65C2-75BB-7DC1-948BF24E15B2</keyObject>
+<referredKeyID>5D967343-65C2-75BB-7DC1-948BF24E15B2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idTema</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

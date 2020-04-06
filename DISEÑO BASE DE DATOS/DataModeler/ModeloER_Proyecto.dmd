@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloER_Proyecto" id="02ED845D-8C2C-40ED-7FF6-7E6855C6F365" version="3.5">
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloER_Proyecto" id="1E395201-D310-9BB6-0F60-16BF066BD24D" version="3.5">
 <createdBy>csier</createdBy>
-<createdTime>2020-03-31 17:19:47 UTC</createdTime>
-<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<createdTime>2020-04-01 09:01:45 UTC</createdTime>
+<ownerDesignName>Base_DiseñoBBDD</ownerDesignName>
 <capitalNames>false</capitalNames>
-<designId>02ED845D-8C2C-40ED-7FF6-7E6855C6F365</designId>
+<designId>1E395201-D310-9BB6-0F60-16BF066BD24D</designId>
 </OSDM_Design>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cuestionariotienepreguntas" directorySegmentName="seg_0" id="C5422B89-CF8C-B01A-2B2A-9E717B3263B8">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:49:14 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7C9D3222-8FF1-6AE1-7C2B-C30CE71BB639</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37EE474B-6403-55FC-8DCF-44640BD3BC0B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

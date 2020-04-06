@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="alumnaregistrahabito" directorySegmentName="seg_0" id="C9F6B021-4CC7-B597-EB1F-265D925819C8">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:49:58 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>49A41D1A-73BF-0CDD-06FA-5A23B424E9B3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0AFC6EAA-35B4-FEAC-F6CC-F0590E12DDFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fechaRegistro" id="0F0D0D49-AC6E-8815-C8F9-2E854C062A46">
+<createdBy>csier</createdBy>
+<createdTime>2020-04-06 10:50:09 UTC</createdTime>
+<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<engineerTo>
+<item key="8F1C7620-A0DF-24DE-D6C0-AFCA04E02E2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

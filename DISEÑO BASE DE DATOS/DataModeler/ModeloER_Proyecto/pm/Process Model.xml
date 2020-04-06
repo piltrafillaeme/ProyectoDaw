@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="0B2A26FB-2A8D-3EC8-1B96-D56DC71D4AAC">
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="9B1EF6B1-4ED0-5CDA-2D59-7917C662A74D">
 <createdBy>csier</createdBy>
-<createdTime>2020-03-31 17:19:47 UTC</createdTime>
-<ownerDesignName>ModeloER_Proyecto</ownerDesignName>
+<createdTime>2020-04-01 09:01:45 UTC</createdTime>
+<ownerDesignName>Base_DiseñoBBDD</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </ProcessModel>

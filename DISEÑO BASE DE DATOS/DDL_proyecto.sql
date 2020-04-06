@@ -30,6 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE alumna (
   idalumna int(11) NOT NULL,
   nombrealumna text COLLATE utf8_bin,
+  apellidosalumna text COLLATE utf8_bin,
   passwordalumna text COLLATE utf8_bin,
   curso_idcurso int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
@@ -151,7 +152,8 @@ CREATE TABLE respuesta (
 CREATE TABLE tema (
   idtema int(11) NOT NULL,
   nombretema text COLLATE utf8_bin,
-  profesor_idprofesor int(11) NOT NULL
+  profesor_idprofesor int(11) NOT NULL,
+  curso_idcurso int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 --
@@ -231,7 +233,8 @@ ALTER TABLE respuesta
 --
 ALTER TABLE tema
   ADD PRIMARY KEY (idtema),
-  ADD KEY tema_profesor_fk (profesor_idprofesor);
+  ADD KEY tema_profesor_fk (profesor_idprofesor),
+  ADD KEY tema_curso_fk (curso_idcurso);
 
 --
 -- Restricciones para tablas volcadas
@@ -292,7 +295,8 @@ ALTER TABLE respuesta
 -- Filtros para la tabla tema
 --
 ALTER TABLE tema
-  ADD CONSTRAINT tema_profesor_fk FOREIGN KEY (profesor_idprofesor) REFERENCES profesor (idprofesor);
+  ADD CONSTRAINT tema_profesor_fk FOREIGN KEY (profesor_idprofesor) REFERENCES profesor (idprofesor),
+  ADD CONSTRAINT tema_curso_fk FOREIGN KEY (curso_idcurso) REFERENCES curso (idcurso);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

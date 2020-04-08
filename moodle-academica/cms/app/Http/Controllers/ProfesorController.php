@@ -14,7 +14,7 @@ class ProfesorController extends Controller
         $profesor = Profesor::all();
 
         /* Enviamos ya a la vista todo lo que estoy almacenando en el controlador view(ruta archivo de la pagina, array que almacena toda la información traida)*/
-        return view("paginas.profesor", array("profesor" => $profesor));
+        return view("/profesor", array("profesor" => $profesor));
 
         /* Hay que especificar en la ruta que estoy usando un método get (web.php) -> Route::get(ruta de la url donde quiero que se aplique el método get, nombre del controlador@nombre del método)
         Lo anterior se especifica dentro del archivo web.php -> Route::get('/', 'BlogController@traerBlog');*/

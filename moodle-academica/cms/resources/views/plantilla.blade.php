@@ -67,8 +67,120 @@
 
     <!-- JS AdminLTE -->
     <script src="{{ url('/') }}/js/plugins/adminlte.js"></script>
+
+    <!-- Styles -->
+    <style>
+        html, body {
+            background-color: #fff;
+            color: #636b6f;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .full-height {
+            height: 100vh;
+        }
+
+        .flex-center {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .position-ref {
+            position: relative;
+        }
+
+        .top-right {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .title {
+            font-size: 50px;
+            margin-bottom: -20px;
+            letter-spacing: .1rem;
+        }
+
+        .subtitle {
+            font-size: 60px;
+            letter-spacing: .1rem;
+        }
+
+        .links > a {
+            color: #FFFEFD;
+            padding: 25px 25px;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 35px;
+        }
+
+        .btn {
+            background-color: #0380A9;
+        }
+
+        .btn:hover {
+            background-color: #636b6f;
+            color: #FFFEFD;
+        }
+
+
+        .m-b-md {
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 <body>
-    hola, soy la plantilla
+{{-- <div class="content">
+    <div class="title m-b-md">
+        @if (Route::has('login'))
+            <div class="flex-center position-ref full-height">
+            @auth
+                <a href="{{ url('/home') }}">Home</a>
+        @else
+            <a href="{{ route('login') }}">Login</a>
+            @if (Route::has('register'))
+                <a href="{{ route('register') }}">Register</a>
+            @endif
+            @endauth
+                </div>
+        @endif
+    </div>
+</div> --}}
+
+<div class="flex-center position-ref">
+    <div class="content">
+        <img src="{{url('/')}}/img/logo-jss.jpg" alt="">
+        <div class="titulo">
+            <p class="title">Tartessos</p>
+            <p class="subtitle">EF</p>
+        </div>
+        <div>
+            @if (Route::has('login'))
+                <div class="flex-center position-ref links">
+                @auth
+                <a type="button" class="btn btn-dark" href="{{ url('/home') }}">Inicio</a>
+            @else
+                <a type="button" class="btn" href="{{ route('login') }}">Iniciar sesión</a>
+
+                @if (Route::has('register'))
+                    <a type="button" class="btn" href="{{ route('register') }}">Register</a>
+                @endif
+                @endauth
+            @endif
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

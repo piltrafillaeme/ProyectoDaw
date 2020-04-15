@@ -25,7 +25,7 @@
             ======================================-->
 
             <li class="nav-item">
-                <a href="{{ url("/profesorpaginas/listaalumnas") }}" class="nav-link">
+                <a href="{{ url("/profesor") }}" class="nav-link">
                 <i class="nav-icon fas fa-home"></i>
                 <p>Listado Alumnas</p>
                 </a>
@@ -36,7 +36,7 @@
             ======================================-->
 
             <li class="nav-item">
-                <a href="{{ url("/administradores") }}" class="nav-link">
+                <a href="{{ url("/temas") }}" class="nav-link">
                 <i class="nav-icon fas fa-users-cog"></i>
                 <p>Temas</p>
                 </a>
@@ -69,16 +69,11 @@
             ======================================-->
 
             <li class="nav-item">
-            
-            <a href="{{ substr(url("/"),0,-11) }}" class="nav-link" target="_blank">
-                
-                <i class="nav-icon fas fa-globe"></i>
-                
-                <p>Ver sitio</p>
-
-            </a>
-
-            </li>
+              <a href="{{ url("/alumna") }}" class="nav-link">
+              <i class="nav-icon fas fa-globe"></i>
+              <p>Ver sitio</p>
+              </a>
+          </li>
 
         </ul>
       </nav>

@@ -18,11 +18,25 @@ Route::get('/', function () {
     return view('inicio');
 });
 
+Route::get('/profesor', function () {
+    /* return view('welcome'); */
+    return view('profesor');
+});
+
+Route::get('/temas', function () {
+    /* return view('welcome'); */
+    return view('temas');
+});
+
+
+
+Route::view('/profesor', 'paginas.plistas');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-
+Route::get('/temas', 'TemasController@index')->name('temas');
 
 Route::resource('/alumna', 'AlumnaController');
 Route::resource('/profesor', 'ProfesorController');
+Route::resource('/profesor/plistas', 'plistasController');
